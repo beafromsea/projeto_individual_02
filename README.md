@@ -1,14 +1,14 @@
-<h1># projeto_individual_02<h1>
-<h2>Esse projeto foi desenvolvido no modulo dois do curso 'Códigos do Amanhã', com intuito de ser um conversor de unidades</h2>
+<h1># Conversor de unidades<h1>
+<h2>Esse projeto foi desenvolvido no módulo dois do curso: 'Códigos do Amanhã', com intuito de ser um conversor de unidades</h2>
 
-<h2>🚀Começo do Projeto</h2>
-Iniciei o projeto fazendo uma pagina de facil navegação, a separação da paleta de cores, imagem e formato de caixa que gostaria na página inicial, no topo da página inseri uma foto minha em HD em formato redondo com bordas coloridas, e também tópicos navegaveis e de interação com o usúario usando a tag hover.
-<h2>Usei o site https://palettes.shecodes.io/palettes para escolher minha paleta de cores favorita, abaixo a que foi utilizada.</h2>
-
-
+<h2>🚀O Projeto</h2>
+  Tem como objetivo auxiliar o usuario na conversão de uma unidade de medida para outra.  Ele
+facilita a conversão entre diferentes sistemas de unidades, como
+métrico, imperial, científico, entre outros.
 
 <h2>📃Página Inicial</h2>
-  Fiz uma apresentação pessoal, focadas em minhas conquistas de trabalhos e estudos. Escolhi as fontes 'Special Elite' e 'Cutive Mono' pois elas apresentavam um design semelhante a de maquina de escrever, que me remete ao conteudo de true crime que gosto muito.
+Apresenta 3 botões de navegação, sendo o primeiro para escolha da categoria desejada: comprimento,peso e altura. Em seguida o botão de entrada do valor inserido pelo usuário e o botão de saída do valor da conversão, conforme escolha do usuário.
+ <h2>Você também encontra o espaço reservado para o inserção do valor para ser convertido e logo abaixo o resultado</h2>
 
 <h2>🚢 Navegação</h2>
 Para as páginas da navegação utilizei um hover para interação com o usúrio para que ao passar o mouse em cima da barra mudasse de cor, para chamar atenção e também no texto para uma melhor visualização. Linkei as páginas do projeto em seus tópicos redirecionando o usuário para a página selecionada.
