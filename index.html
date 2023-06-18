@@ -13,10 +13,12 @@
 <body>
     <section class="container">
         <div class="formulario">
-            <h1>Conversor de unidades</h1>
+            <h1>Conversor de Unidades</h1>
             <form action="">
                 <div class="categoria">
                     <label for="">Categoria:</label>
+                </div>
+                <div>
                     <select id="categoria">
                         <option value="">Escolha uma opção</option>
                         <option value="comprimento">Comprimento</option>
@@ -24,13 +26,17 @@
                         <option value="temperatura">Temperatura</option>
                     </select>
                 </div>
-                <label for="">Entrada:</label>
+                <div class="campoEntrada">
+                <label>Entrada:</label>
+                </div>
                 <div>
                     <select id="unidade-entrada">
                         <option value="">Escolha uma opção</option>
                     </select>
                 </div>
-                <label for="">Saida:</label>
+                <div class="campoSaida">
+                <label>Saida:</label>
+                </div>
                 <div>
                     <select id="unidade-saida">
                         <option value="">Escolha uma opção</option>
@@ -39,14 +45,19 @@
 
                 <div class="valor">
                     <label for="valor">Digite o valor:</label>
-                    <input type="text" id="valor" required>
                 </div>
-
+                <div class="caixaResultado">  
+                <input type="text" id="valor" required>
+                </div>
+                <div class="boxResultado">
                 <label for="">Resultado</label>
-                <div class="resultado">
-                    <p></p>
                 </div>
+                <div class="resultado">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam incidunt, cum ipsum dicta iure, perferendis magni, officiis dolorem est repellendus possimus dolorum fuga veritatis earum! Tempora harum quam possimus repudiandae!</p>
+                </div>
+                <div class="botaoConverter">
                 <button id="buttonComvert" class="button" type="submit">Converter</button>
+                </div>
             </form>
     </section>
 </body>
