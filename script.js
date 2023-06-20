@@ -4,36 +4,11 @@ var saida = document.getElementById('unidade-saida')
 var valor = document.getElementById('valor')
 
 categoria.addEventListener('change', function () {
-    if (categoria.value == 'comprimento') {
-        entrada.innerHTML = `                        
-        <option value="metro">Metros </option>
-        <option value="centimetro">Centímetros</option>
-        <option value="polegada">Polegadas</option>`
-        saida.innerHTML = `
-        <option value="metro">Metros </option>
-        <option value="centimetro">Centímetros</option>
-        <option value="polegada">Polegadas</option>`
-    }
-    else if (categoria.value == 'peso') {
-        entrada.innerHTML = `
-        <option value="kg">Quilogramas </option>
-        <option value="grama">Gramas</option>
-        <option value="libra">Libras</option>`
-        saida.innerHTML = `
-        <option value="kg">Quilogramas </option>
-        <option value="grama">Gramas</option>
-        <option value="libra">Libras</option>`
-    }
-    else if (categoria.value == 'temperatura') {
-        entrada.innerHTML = `
-        <option value="celsius">Celsius </option>
-        <option value="fahrenheit">Fahrenheit</option>
-        <option value="kelvin">Kelvin</option>`
-        saida.innerHTML = `
-        <option value="celsius">Celsius </option>
-        <option value="fahrenheit">Fahrenheit</option>
-        <option value="kelvin">Kelvin</option>`
-    }
+    escolherCategoria()
+})
+
+entrada.addEventListener('change', function () {
+    escolherCategoriaSaida()
 })
 
 // evento para não reiniciar a página quando clicar no botão de converter.
@@ -44,47 +19,47 @@ botaoConverter.addEventListener('click', (event) => event.preventDefault());
 
 botaoConverter.addEventListener('click', function () {
     var valorSelecionado = +valor.value
-    if (entrada.value == 'metro' && saida.value == 'centimetro') {
+    if (entrada.value == 'Metro' && saida.value == 'Centimetro') {
         resultado.innerText = metroParaCentimetro(valorSelecionado)
-    } else if (entrada.value == 'centimetro' && saida.value == 'metro') {
+    } else if (entrada.value == 'Centimetro' && saida.value == 'Metro') {
         resultado.innerText = centimentroParaMetro(valorSelecionado)
-    } else if (entrada.value == 'centimetro' && saida.value == 'polegada') {
+    } else if (entrada.value == 'Centimetro' && saida.value == 'Polegada') {
         resultado.innerText = centimentroParaPolegada(valorSelecionado)
-    } else if (entrada.value == 'polegada' && saida.value == 'centimetro') {
+    } else if (entrada.value == 'Polegada' && saida.value == 'Centimetro') {
         resultado.innerText = polegadaParaCentimetro(valorSelecionado)
-    } else if (entrada.value == 'polegada' && saida.value == 'metro') {
+    } else if (entrada.value == 'Polegada' && saida.value == 'Metro') {
         resultado.innerText = polegadaParaMetro(valorSelecionado)
-    } else if (entrada.value == 'metro' && saida.value == 'polegada') {
+    } else if (entrada.value == 'Metro' && saida.value == 'Polegada') {
         resultado.innerText = metroParaPolegada(valorSelecionado)
-    } else if (entrada.value == 'kg' && saida.value == 'grama') {
+    } else if (entrada.value == 'Kg' && saida.value == 'Grama') {
         resultado.innerText = kgParaGrama(valorSelecionado)
-    } else if (entrada.value == 'grama' && saida.value == 'kg') {
+    } else if (entrada.value == 'Grama' && saida.value == 'Kg') {
         resultado.innerText = gramaParaKg(valorSelecionado)
-    } else if (entrada.value == 'grama' && saida.value == 'libra') {
+    } else if (entrada.value == 'Grama' && saida.value == 'Libra') {
         resultado.innerText = gramaParaLibra(valorSelecionado)
-    } else if (entrada.value == 'libra' && saida.value == 'grama') {
+    } else if (entrada.value == 'Libra' && saida.value == 'Grama') {
         resultado.innerText = libraParaGrama(valorSelecionado)
-    } else if (entrada.value == 'libra' && saida.value == 'kg') {
+    } else if (entrada.value == 'Libra' && saida.value == 'Kg') {
         resultado.innerText = libraParaKg(valorSelecionado)
-    } else if (entrada.value == 'kg' && saida.value == 'libra') {
+    } else if (entrada.value == 'Kg' && saida.value == 'Libra') {
         resultado.innerText = kgParaLibra(valorSelecionado)
-    } else if (entrada.value == 'libra' && saida.value == 'grama') {
+    } else if (entrada.value == 'Libra' && saida.value == 'Grama') {
         resultado.innerText = libraParaGrama(valorSelecionado)
-    } else if (entrada.value == 'libra' && saida.value == 'kg') {
+    } else if (entrada.value == 'Libra' && saida.value == 'Kg') {
         resultado.innerText = libraParaKg(valorSelecionado)
-    } else if (entrada.value == 'kg' && saida.value == 'libra') {
+    } else if (entrada.value == 'Kg' && saida.value == 'Libra') {
         resultado.innerText = kgParaLibra(valorSelecionado)
-    } else if (entrada.value == 'celsius' && saida.value == 'fr') {
+    } else if (entrada.value == 'Celsius' && saida.value == 'Fahrenheit') {
         resultado.innerText = celsiusParaFr(valorSelecionado)
-    } else if (entrada.value == 'fr' && saida.value == 'celsius') {
+    } else if (entrada.value == 'Fahrenheit' && saida.value == 'Celsius') {
         resultado.innerText = frParaCelsius(valorSelecionado)
-    } else if (entrada.value == 'fr' && saida.value == 'kelvin') {
+    } else if (entrada.value == 'Fahrenheit' && saida.value == 'Kelvin') {
         resultado.innerText = frParaKelvin(valorSelecionado)
-    } else if (entrada.value == 'kelvin' && saida.value == 'fr') {
+    } else if (entrada.value == 'Kelvin' && saida.value == 'Fahrenheit') {
         resultado.innerText = kelvinParafr(valorSelecionado)
-    } else if (entrada.value == 'kelvin' && saida.value == 'celsius') {
+    } else if (entrada.value == 'Kelvin' && saida.value == 'Celsius') {
         resultado.innerText = kelvinParaCelsius(valorSelecionado)
-    } else if (entrada.value == 'celsius' && saida.value == 'kelvin') {
+    } else if (entrada.value == 'Celsius' && saida.value == 'Kelvin') {
         resultado.innerText = celsiusParaKelvin(valorSelecionado)
     }
 })
@@ -116,10 +91,10 @@ function polegadaParaMetro(polegada) {
     return metro
 }
 
-function metroParaPolegada(metro)
-var polegada = metro * 39.37
-return polegada
-
+function metroParaPolegada(metro) {
+    var polegada = metro * 39.37
+    return polegada
+}
 // unidade de peso, funções com a operação de conversão
 
 function kgParaGrama(kg) {
@@ -183,4 +158,64 @@ function kelvinParaCelsius(kelvin) {
 function celsiusParaKelvin(celsius) {
     var kelvin = celsius + 273.15
     return kelvin
+}
+
+function escolherCategoria() {
+    if (categoria.value == 'comprimento') {
+        escolherUnidades('Metro', 'Centimetro', 'Polegada')
+    }
+    if (categoria.value == 'peso') {
+        escolherUnidades('Kg', 'Grama', 'Libra')
+    }
+    if (categoria.value == 'temperatura') {
+        escolherUnidades('Celsius', 'Fahrenheit', 'Kelvin')
+    }
+}
+
+function escolherUnidades(medida1, medida2, medida3) {
+    entrada.innerHTML = `
+    <option value="">Escolha uma opção</option>
+    <option value="${medida1}">${medida1}</option>
+    <option value="${medida2}">${medida2}</option>
+    <option value="${medida3}">${medida3}</option>
+    `
+
+}
+
+function escolherUndiadesdeSaida(medida1, medida2, medida3) {
+    if (entrada.value == medida1) {
+        saida.innerHTML = `
+    <option value="">Escolha uma opção</option>
+    <option value="${medida2}">${medida2}</option>
+    <option value="${medida3}">${medida3}</option>
+    `
+    }
+
+    if (entrada.value == medida2) {
+        saida.innerHTML = `
+    <option value="">Escolha uma opção</option>
+    <option value="${medida1}">${medida1}</option>
+    <option value="${medida3}">${medida3}</option>
+    `
+    }
+
+    if (entrada.value == medida3) {
+        saida.innerHTML = `
+    <option value="">Escolha uma opção</option>
+    <option value="${medida2}">${medida2}</option>
+    <option value="${medida1}">${medida1}</option>
+    `
+    }
+}
+
+function escolherCategoriaSaida() {
+    if (categoria.value == 'comprimento') {
+        escolherUndiadesdeSaida('Metro', 'Centimetro', 'Polegada')
+    }
+    if (categoria.value == 'peso') {
+        escolherUndiadesdeSaida('Kg', 'Grama', 'Libra')
+    }
+    if (categoria.value == 'temperatura') {
+        escolherUndiadesdeSaida('Celsius', 'Fahrenheit', 'Kelvin')
+    }
 }
