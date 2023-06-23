@@ -10,9 +10,9 @@
 
 <h1>📃Funcionalidades </h1>
 <h2><br>Ele facilita a conversão entre diferentes sistemas de unidades, sendo eles:</br>
-Conversão de temperatura: Celsius, Fahrenheit e Kelvin
-Conversão de comprimento: metros, polegadas e centímetros
-Conversão de peso: kg, gramas e libras <h2>
+<br>Conversão de temperatura: Celsius, Fahrenheit e Kelvin</br>
+<br>Conversão de comprimento: metros, polegadas e centímetros</br>
+<br>Conversão de peso: kg, gramas e libras</br> <h2>
 
 <h2>
 <br>✅ Criado função para cada categoria de unidades de medida </br>
