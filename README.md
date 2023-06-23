@@ -14,11 +14,11 @@ Conversão de temperatura: Celsius, Fahrenheit e Kelvin
 Conversão de comprimento: metros, polegadas e centímetros
 Conversão de peso: kg, gramas e libras <h2>
 
-<h1>
+<h2>
 ✅ Criado função para cada categoria de unidades de medida <br>
 ✅Utiliza o evento "change" nos campos de seleção para atualizar dinamicamente as
 opções de destino<br>
 ✅Verificação se todos os campos foram preenchidos antes de realizar a conversão<br>
 ✅Uso do DOM para pegar as informações do formulário e exibir o resultado da
 conversão<br>
-</h1>
+</h2>
