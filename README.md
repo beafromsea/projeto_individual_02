@@ -9,16 +9,16 @@
  Você também encontra um botão "Converter" para realizar a conversão e um campo de saída para exibir o resultado da conversão</h2>
 
 <h1>📃Funcionalidades </h1>
-<h2>Ele facilita a conversão entre diferentes sistemas de unidades, sendo eles:<br>
+<h2><br>Ele facilita a conversão entre diferentes sistemas de unidades, sendo eles:</br>
 Conversão de temperatura: Celsius, Fahrenheit e Kelvin
 Conversão de comprimento: metros, polegadas e centímetros
 Conversão de peso: kg, gramas e libras <h2>
 
 <h2>
-✅ Criado função para cada categoria de unidades de medida <br>
-✅Utiliza o evento "change" nos campos de seleção para atualizar dinamicamente as
-opções de destino<br>
-✅Verificação se todos os campos foram preenchidos antes de realizar a conversão<br>
-✅Uso do DOM para pegar as informações do formulário e exibir o resultado da
-conversão<br>
+<br>✅ Criado função para cada categoria de unidades de medida </br>
+<br>✅Utiliza o evento "change" nos campos de seleção para atualizar dinamicamente as
+opções de destino</br>
+<br>✅Verificação se todos os campos foram preenchidos antes de realizar a conversão</br>
+<br>✅Uso do DOM para pegar as informações do formulário e exibir o resultado da
+conversão</br>
 </h2>
