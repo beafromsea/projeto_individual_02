@@ -19,7 +19,7 @@ Foi desenvolvido um conversor utilizando HTML, CSS e JavaScript. O conversor per
 <br>✅ Criado função para cada categoria de unidades de medida. </br>
 <br>✅Utiliza o evento "change" nos campos de seleção para atualizar dinamicamente as
 opções de destino.</br>
-<br>✅Verificação se todos os campos foram preenchidos antes de realizar a conversão.</br>
+<br>✅Verifica se todos os campos foram preenchidos antes de realizar a conversão.</br>
 <br>✅Uso do DOM para pegar as informações do formulário e exibir o resultado da
 conversão.</br>
 </h2>
