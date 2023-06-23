@@ -1,4 +1,4 @@
-// variaveis declaradas para identificar o elemento pelo ID.
+// variáveis declaradas para identificar o elemento pelo ID.
 
 var categoria = document.getElementById('categoria')
 var entrada = document.getElementById('unidade-entrada')
