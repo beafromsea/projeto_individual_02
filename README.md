@@ -2,7 +2,7 @@
 
 <h1>🚀O Projeto</h1>
 <h2>
-  Este é um projeto que implementa um conversor utilizando HTML, CSS e JavaScript. O conversor permite realizar conversões entre diferentes unidades de medida </h2>
+Foi desenvolvido um conversor utilizando HTML, CSS e JavaScript. O conversor permite realizar conversões entre diferentes unidades de medida </h2>
 
 <h1>🚢 Navegação</h1>
   <h2>O website apresenta 3 botões de navegação, sendo o primeiro para escolha da categoria desejada, em seguida o de unidade de medida de origem e outro para a unidade de medida de destino
