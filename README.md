@@ -12,7 +12,7 @@ Foi desenvolvido um conversor utilizando HTML, CSS e JavaScript. O conversor per
 <h2><br>Ele facilita a conversão entre diferentes sistemas de unidades, sendo eles:</br>
 <br>Conversão de temperatura: Celsius, Fahrenheit e Kelvin</br>
 <br>Conversão de comprimento: metros, polegadas e centímetros</br>
-<br>Conversão de peso: kg, gramas e libras</br> <h2>
+<br>Conversão de peso: kg, gramas e libras</br><h2>
 
 <h2>
 <br>✅ Criado função para cada categoria de unidades de medida </br>

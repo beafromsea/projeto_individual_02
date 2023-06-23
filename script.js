@@ -1,3 +1,5 @@
+// variaveis declaradas para identificar o elemento pelo ID.
+
 var categoria = document.getElementById('categoria')
 var entrada = document.getElementById('unidade-entrada')
 var saida = document.getElementById('unidade-saida')
@@ -15,7 +17,7 @@ entrada.addEventListener('change', function () {
 
 botaoConverter.addEventListener('click', (event) => event.preventDefault());
 
-// bloco para executar as funções ao clicar no botão 
+// bloco para executar as funções ao clicar no botão.
 
 botaoConverter.addEventListener('click', function () {
     var valorSelecionado = +valor.value
@@ -64,7 +66,7 @@ botaoConverter.addEventListener('click', function () {
     }
 })
 
-//unidade de comprimento, funções com a operação de conversão
+//unidade de comprimento, funções com a operação de conversão.
 
 function metroParaCentimetro(metro) {
     var centimetro = metro * 100
@@ -95,7 +97,7 @@ function metroParaPolegada(metro) {
     var polegada = metro * 39.37
     return polegada
 }
-// unidade de peso, funções com a operação de conversão
+// unidade de peso, funções com a operação de conversão.
 
 function kgParaGrama(kg) {
     var grama = kg * 1000
@@ -131,7 +133,7 @@ function kgParaLibra(kg) {
     return libra
 }
 
-// unidade de temperatura, funções com a operação de conversão
+// unidade de temperatura, funções com a operação de conversão.
 
 function celsiusParaFr(celsius) {
     var fr = (celsius * 9 / 5) + 32
