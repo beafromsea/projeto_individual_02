@@ -1,20 +1,24 @@
-<h1># Conversor de unidades<h1>
-<h2>Esse projeto foi desenvolvido no módulo dois do curso: 'Códigos do Amanhã', com intuito de ser um conversor de unidades</h2>
+<h2>#Projeto individual do módulo 2 - Códigos do Amanhã<h2>
 
 <h2>🚀O Projeto</h2>
-  Tem como objetivo auxiliar o usuario na conversão de uma unidade de medida para outra.  Ele
-facilita a conversão entre diferentes sistemas de unidades, como
-métrico, imperial, científico, entre outros.
-
-<h2>📃Página Inicial</h2>
-Apresenta 3 botões de navegação, sendo o primeiro para escolha da categoria desejada: comprimento,peso e altura. Em seguida o botão de entrada do valor inserido pelo usuário e o botão de saída do valor da conversão, conforme escolha do usuário.
- <h2>Você também encontra um espaço reservado para a inserção do valor a ser convertido e logo abaixo o resultado</h2>
+<h1>
+  Este é um projeto que implementa um conversor utilizando HTML, CSS e JavaScript. O conversor permite realizar conversões entre diferentes unidades de medida </h1>
 
 <h2>🚢 Navegação</h2>
-.
+  <h1>O website apresenta 3 botões de navegação, sendo o primeiro para escolha da categoria desejada, em seguida o de unidade de medida de origem e outro para a unidade de medida de destino
+ Você também encontra um botão "Converter" para realizar a conversão e um campo de saída para exibir o resultado da conversão</h1>
 
-<h2>🎮Sobre Mim e Interesses</h2>
-.
+<h2>📃Funcionalidades </h2>
+<h1>Ele facilita a conversão entre diferentes sistemas de unidades, sendo eles:<br>
+Conversão de temperatura: Celsius, Fahrenheit e Kelvin
+Conversão de comprimento: metros, polegadas e centímetros
+Conversão de peso: kg, gramas e libras <h1>
 
-<h2>📋Formulário</h2>
-.
+<h2>
+✅ Criado função para cada categoria de unidades de medida <br>
+✅Utiliza o evento "change" nos campos de seleção para atualizar dinamicamente as
+opções de destino<br>
+✅Verificação se todos os campos foram preenchidos antes de realizar a conversão<br>
+✅Uso do DOM para pegar as informações do formulário e exibir o resultado da
+conversão<br>
+</h2>
