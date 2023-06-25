@@ -10,63 +10,12 @@ body {
     max-width: 0 auto;
     text-align: center;
     padding: 20px;
+
 }
 
 h1 {
     padding: 25px;
     font-size: x-large;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    border: solid #fff;
-}
-
-.caixaResultado {
-    display: flex;
-    justify-content: center;
-    width: 100;
-
-}
-
-.categoria {
-    padding: 10px;
-    font-size: x-large;
-}
-
-.campoEntrada {
-    padding: 10px;
-    font-size: x-large;
-}
-
-.campoSaida {
-    padding: 10px;
-    font-size: x-large;
-
-}
-
-.caixaValor {
-    padding: 10px;
-    font-size: x-large;
-
-}
-
-.boxResultado {
-    padding: 10px;
-    font-size: x-large;
-}
-
-.resultado {
-    padding: 10px;
-    font-size: x-large;
-}
-
-.botaoConverter {
-    padding: 40px;
-
 }
 
 button {
@@ -80,6 +29,58 @@ button {
     text-shadow: none;
 }
 
+/* Estilização pra deixar os elementos em coluna e alinhar no centro */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: solid #fff;
+    background-color: transparent;
+}
+
+/* Configuração tamanho da fonte e espaçamento */
+.categoria,
+.campoEntrada,
+.campoSaida,
+.caixaValor {
+    padding: 10px;
+    font-size: x-large;
+}
+
+
+/* Estilização do espaço onde se digita o valo a ser convertido */
+
+.caixaDigiteOValo {
+    display: flex;
+    justify-content: center;
+    width: 100;
+
+
+}
+
+/* Estilização da parte "Resultado" */
+
+.boxResultado {
+    padding: 10px;
+    font-size: x-large;
+
+}
+
+/* Estilização do espaço onde apareçe o resultado da conversão */
+.resultado {
+    padding: 10px;
+    font-size: x-large;
+    background: #0066A2;
+}
+
+/* Margem do botão */
+.botaoConverter {
+    padding: 40px;
+
+}
+
+/* Estilização do botão de conversão */
 button:hover {
     transform: scale(1.1);
     transition: 750ms linear;

@@ -12,12 +12,14 @@
 
 <body>
     <section class="container">
+        <!-- Div's que possuem class foram utilizadas para manipular os elementos no CSS -->
         <div class="formulario">
             <h1>Conversor de Unidades</h1>
             <form id="formulario">
                 <div class="categoria">
                     <label for="">Categoria:</label>
                 </div>
+                <!-- Div's antes do select foram utilizadas para o select não ficar solto na página -->
                 <div>
                     <select id="categoria">
                         <option value="">Escolha uma opção</option>
@@ -27,7 +29,7 @@
                     </select>
                 </div>
                 <div class="campoEntrada">
-                <label>Entrada:</label>
+                    <label>Entrada:</label>
                 </div>
                 <div>
                     <select id="unidade-entrada">
@@ -35,7 +37,7 @@
                     </select>
                 </div>
                 <div class="campoSaida">
-                <label>Saida:</label>
+                    <label>Saida:</label>
                 </div>
                 <div>
                     <select id="unidade-saida">
@@ -46,17 +48,17 @@
                 <div class="caixaValor">
                     <label for="valor">Digite o valor:</label>
                 </div>
-                <div class="caixaResultado">  
-                <input type="text" id="valor" required>
+                <div class="caixaDigiteOValor">
+                    <input type="number" id="valor" required>
                 </div>
                 <div class="boxResultado">
-                <label for="">Resultado</label>
+                    <label for="">Resultado</label>
                 </div>
                 <div class="resultado">
                     <p id="resultado"></p>
                 </div>
                 <div class="botaoConverter">
-                <button id="botaoConverter" class="button" type="submit">Converter</button>
+                    <button id="botaoConverter" class="button" type="submit">Converter</button>
                 </div>
             </form>
     </section>
