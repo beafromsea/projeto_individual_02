@@ -10,14 +10,14 @@ Foi desenvolvido um conversor utilizando HTML, CSS e JavaScript. O conversor per
 
 <h1>📃Funcionalidades</h1>
 <h2><br>Ele facilita a conversão entre diferentes sistemas de unidades, sendo eles:</br>
-<br>Conversão de temperatura: Celsius, Fahrenheit e Kelvin</br>
-<br>Conversão de comprimento: metros, polegadas e centímetros</br>
-<br>Conversão de peso: kg, gramas e libras.</br><h2>
+<br>☁️ Conversão de temperatura: Celsius, Fahrenheit e Kelvin</br>
+<br>📏 Conversão de comprimento: metros, polegadas e centímetros</br>
+<br>⏲️ Conversão de peso: kg, gramas e libras.</br><h2>
 
 <h2>
 <br>✅ Criado função para cada categoria de unidades de medida </br>
-<br>✅Utiliza o evento "change" nos campos de seleção para atualizar dinamicamente as
+<br>✅ Utiliza o evento "change" nos campos de seleção para atualizar dinamicamente as
 opções de destino</br>
-<br>✅Uso do DOM para pegar as informações do formulário e exibir o resultado da
+<br>✅ Uso do DOM para pegar as informações do formulário e exibir o resultado da
 conversão.</br>
 </h2>
